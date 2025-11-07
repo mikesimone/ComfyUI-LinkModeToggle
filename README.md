@@ -14,6 +14,25 @@ Designed for the modern ComfyUI frontend (v1.31+), but falls back gracefully on 
 
 Complex graphs look like spaghetti when every link’s a spline. Straight/linear links reduce visual noise and help you route with intent. Toggling on demand beats digging through menus.
 
+**Straight** <img width="1975" height="1495" alt="image" src="https://github.com/user-attachments/assets/b8ca23cb-1d12-4b15-842b-f56220180e7d" />
+
+**Linear** <img width="1947" height="1465" alt="image" src="https://github.com/user-attachments/assets/6a27e1f0-9dcd-44a1-a65a-16e84fb27410" />
+
+**Spline** <img width="2067" height="1698" alt="image" src="https://github.com/user-attachments/assets/60866c73-fdf3-401e-b26a-6aa56712d1fb" />
+
+As you can tell, there's pros and cons to the different types of render when it comes to figuring out where an input or an output is connected, and, as of now, only clicking on an INPUT will highlight the entire path; clicking an output does nothing. *That's not frustrating at all.*
+
+So, with a handy-dandy little icon in the corner like this:
+
+<img width="477" height="266" alt="image" src="https://github.com/user-attachments/assets/83dc074b-5bc9-46f0-bf09-3bb28a93b804" />
+
+
+Instead of clicking "Comfy -> Settings -> LiteGraph -> <scroll down> -> <select a mode>" you just click the icon and switch it. 
+
+I dunno, maybe it's just me. Clearly, there wasn't *much* demand for it before I wrote this, but I'm getting use out of it, and I hope you do, too.
+
+
+
 ---
 
 ## Features
