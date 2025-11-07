@@ -1,5 +1,9 @@
 # LinkModeToggle — ComfyUI link render mode hotkeys + button
 
+[![ComfyUI Manager](https://img.shields.io/badge/Available%20on-ComfyUI%20Manager-blue.svg)](https://github.com/Comfy-Org/ComfyUI-Manager)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 **Make the canvas readable at a glance.** LinkModeToggle adds:
 
 * **Hotkeys:** `F8` or `Ctrl+K` to cycle **Spline → Linear → Straight**
