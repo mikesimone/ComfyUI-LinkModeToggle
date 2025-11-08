@@ -1,4 +1,4 @@
-﻿// LinkModeToggle — front-end extension for ComfyUI
+// LinkModeToggle — front-end extension for ComfyUI
 // Adds: F8/Ctrl+K hotkeys + a small toolbar button that cycles SPLINE/LINEAR/STRAIGHT.
 
 (() => {
@@ -193,3 +193,7 @@ const boot = () => {
     boot();
   }
 })();
+
+
+console.log("%c[LinkModeToggle] v0.1.0 loaded","color: #00e6e6;");
+
