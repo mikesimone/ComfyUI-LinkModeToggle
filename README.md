@@ -2,6 +2,10 @@
 
 [![ComfyUI Manager](https://img.shields.io/badge/Available%20on-ComfyUI%20Manager-blue.svg)](https://github.com/Comfy-Org/ComfyUI-Manager)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/mikesimone/LinkModeToggle)](https://github.com/mikesimone/LinkModeToggle/releases)
+
+**Install:** ComfyUI-Manager → “Custom Nodes” → search **Link Mode Toggle**
+
 
 
 **Make the canvas readable at a glance.** LinkModeToggle adds:
