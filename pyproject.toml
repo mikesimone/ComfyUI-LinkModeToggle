@@ -7,6 +7,9 @@ authors = [{ name = "Mike Simone", email = "mike@antonlabs.com" }]
 readme = "README.md"
 requires-python = ">=3.10"
 
+[project.urls]
+Repository = "https://github.com/mikesimone/ComfyUI-LinkModeToggle"
+
 [tool.comfy]
 PublisherId = "grumpycarebear"
 DisplayName = "ComfyUI Link Mode Toggle"

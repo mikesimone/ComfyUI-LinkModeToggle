@@ -26,7 +26,7 @@ jobs:
           if ($ref -like "refs/tags/*") {
             $v = $ref -replace '^refs/tags/', ''
           } else {
-            $v = (Get-Content -Raw -Path pyproject.toml) -match '^version\s*=\s*"([^"]+)"' | Out-Null
+            $v = (Get-Content -Raw -Path pyproject.toml) -match '(?m)^version\s*=\s*"([^"]+)"' | Out-Null
             $v = $Matches[1]
           }
           "version=$v" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
